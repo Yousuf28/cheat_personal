@@ -11,6 +11,10 @@ git config --global core.editor <editor>
 # To enable color:
 git config --global color.ui true
 
+# ignore a tracked file/directory without deleting it
+git rm --cached file.txt
+git rm --cached files/
+
 # To stage all changes for commit:
 git add --all
 
